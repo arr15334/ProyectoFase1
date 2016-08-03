@@ -1,0 +1,27 @@
+i=0
+def right(): 
+	repeat (turn_left,3) 
+def follow_right_wall():
+    global i
+    if right_is_clear():  
+        right()
+        i=i+1
+        move() 
+    elif front_is_clear():  
+        move() 
+    else:  
+        turn_left() 
+        i=i-1
+def main():
+    while 1>0:
+        print(i)
+        follow_right_wall()
+    #turnoff
+
+#--Fin de definicion,
+# empieza solucion
+
+main()
+print(i)
+
+
