@@ -1,3 +1,8 @@
+#UVG
+#Algoritmos y Estructuras de Datos
+#Codigo para salir de cualquier laberinto 
+
+
 #i=0
 def right(): 
 
