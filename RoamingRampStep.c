@@ -1,7 +1,9 @@
 /*
-  IR Roaming.c
-
-  Use IR LEDs and IR receivers to detect obstacles while roaming.
+  UVG - Algoritmos y Estructuras de Datos
+  Integrantes: Rodrigo Arriaza, Sebastian Galindo y Alejandro Chaclan
+  
+  Basado en el codigoIR Roaming.c
+  "Use IR LEDs,IR receivers and PING to detect obstacles while roaming.""
 
 */
 
@@ -20,7 +22,7 @@ int main()                                      // main function
   low(27);
 
   drive_setRampStep(12);                        // Max step 12 ticks/s every 20 ms
-
+//INICIO del algoritmo de follow right wall
   while(1)
   {
     freqout(11, 1, 38000);                      // Check left & right objects
