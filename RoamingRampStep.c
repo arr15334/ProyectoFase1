@@ -1,8 +1,13 @@
 /*
-  IR Roaming.c
-
-  Use IR LEDs and IR receivers to detect obstacles while roaming.
-
+  Algoritmos y Estructuras de Datos
+  Proyecto 1
+  
+  Integrantes:
+  Alejandro Chaclan
+  Sebastian Galindo
+  Rodrigo Arriaza
+  
+  El programa utiliza el algoritmo de "la mano derecha" y sensores en un robot para resolver un laberinto.
 */
 
 #include "simpletools.h"                        // Library includes
